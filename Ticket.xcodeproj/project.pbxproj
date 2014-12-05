@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B673FE71A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B673FE61A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg */; };
+		7B673FE91A30D626006A0FF2 /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B673FE81A30D626006A0FF2 /* ShowTableViewCell.swift */; };
 		7BF5C0B81A30CF46006FD72D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5C0B71A30CF46006FD72D /* AppDelegate.swift */; };
 		7BF5C0BA1A30CF46006FD72D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5C0B91A30CF46006FD72D /* ViewController.swift */; };
 		7BF5C0BD1A30CF46006FD72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF5C0BB1A30CF46006FD72D /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B673FE61A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wicked-logo-wallpaper.jpg"; path = "../../../Downloads/wicked-logo-wallpaper.jpg"; sourceTree = "<group>"; };
+		7B673FE81A30D626006A0FF2 /* ShowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
 		7BF5C0B21A30CF46006FD72D /* Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF5C0B61A30CF46006FD72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF5C0B71A30CF46006FD72D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				7BF5C0B71A30CF46006FD72D /* AppDelegate.swift */,
-				7BF5C0B91A30CF46006FD72D /* ViewController.swift */,
-				7BF5C0BB1A30CF46006FD72D /* Main.storyboard */,
 				7BF5C0BE1A30CF46006FD72D /* Images.xcassets */,
 				7BF5C0C01A30CF46006FD72D /* LaunchScreen.xib */,
+				7BF5C0BB1A30CF46006FD72D /* Main.storyboard */,
+				7B673FE81A30D626006A0FF2 /* ShowTableViewCell.swift */,
 				7BF5C0B51A30CF46006FD72D /* Supporting Files */,
+				7BF5C0B91A30CF46006FD72D /* ViewController.swift */,
+				7B673FE61A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 			files = (
 				7BF5C0BD1A30CF46006FD72D /* Main.storyboard in Resources */,
 				7BF5C0C21A30CF46006FD72D /* LaunchScreen.xib in Resources */,
+				7B673FE71A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg in Resources */,
 				7BF5C0BF1A30CF46006FD72D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B673FE91A30D626006A0FF2 /* ShowTableViewCell.swift in Sources */,
 				7BF5C0BA1A30CF46006FD72D /* ViewController.swift in Sources */,
 				7BF5C0B81A30CF46006FD72D /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +413,7 @@
 				7BF5C0D31A30CF46006FD72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF5C0D41A30CF46006FD72D /* Build configuration list for PBXNativeTarget "TicketTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				7BF5C0D61A30CF46006FD72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
