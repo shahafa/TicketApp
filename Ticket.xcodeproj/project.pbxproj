@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B673FE71A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B673FE61A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg */; };
 		7B673FE91A30D626006A0FF2 /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B673FE81A30D626006A0FF2 /* ShowTableViewCell.swift */; };
+		7B7C855E1A3CA1B90072D486 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C855D1A3CA1B90072D486 /* Show.swift */; };
+		7B7C85601A3CA76D0072D486 /* ShowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C855F1A3CA76D0072D486 /* ShowList.swift */; };
+		7B83A5501A35FF31006C8823 /* Search Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B83A54F1A35FF31006C8823 /* Search Button.png */; };
+		7B83A5541A36096C006C8823 /* Options Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B83A5531A36096C006C8823 /* Options Button.png */; };
 		7BF5C0B81A30CF46006FD72D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5C0B71A30CF46006FD72D /* AppDelegate.swift */; };
 		7BF5C0BA1A30CF46006FD72D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5C0B91A30CF46006FD72D /* ViewController.swift */; };
 		7BF5C0BD1A30CF46006FD72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF5C0BB1A30CF46006FD72D /* Main.storyboard */; };
@@ -28,8 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B673FE61A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wicked-logo-wallpaper.jpg"; path = "../../../Downloads/wicked-logo-wallpaper.jpg"; sourceTree = "<group>"; };
 		7B673FE81A30D626006A0FF2 /* ShowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
+		7B7C855D1A3CA1B90072D486 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		7B7C855F1A3CA76D0072D486 /* ShowList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowList.swift; sourceTree = "<group>"; };
+		7B83A54F1A35FF31006C8823 /* Search Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search Button.png"; sourceTree = "<group>"; };
+		7B83A5531A36096C006C8823 /* Options Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options Button.png"; sourceTree = "<group>"; };
 		7BF5C0B21A30CF46006FD72D /* Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF5C0B61A30CF46006FD72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF5C0B71A30CF46006FD72D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B83A54E1A35FF1D006C8823 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7B83A5531A36096C006C8823 /* Options Button.png */,
+				7B83A54F1A35FF31006C8823 /* Search Button.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		7BF5C0A91A30CF46006FD72D = {
 			isa = PBXGroup;
 			children = (
@@ -82,13 +97,15 @@
 			isa = PBXGroup;
 			children = (
 				7BF5C0B71A30CF46006FD72D /* AppDelegate.swift */,
+				7B83A54E1A35FF1D006C8823 /* Assets */,
 				7BF5C0BE1A30CF46006FD72D /* Images.xcassets */,
 				7BF5C0C01A30CF46006FD72D /* LaunchScreen.xib */,
 				7BF5C0BB1A30CF46006FD72D /* Main.storyboard */,
+				7B7C855D1A3CA1B90072D486 /* Show.swift */,
+				7B7C855F1A3CA76D0072D486 /* ShowList.swift */,
 				7B673FE81A30D626006A0FF2 /* ShowTableViewCell.swift */,
 				7BF5C0B51A30CF46006FD72D /* Supporting Files */,
 				7BF5C0B91A30CF46006FD72D /* ViewController.swift */,
-				7B673FE61A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -198,9 +215,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B83A5541A36096C006C8823 /* Options Button.png in Resources */,
 				7BF5C0BD1A30CF46006FD72D /* Main.storyboard in Resources */,
 				7BF5C0C21A30CF46006FD72D /* LaunchScreen.xib in Resources */,
-				7B673FE71A30D55C006A0FF2 /* wicked-logo-wallpaper.jpg in Resources */,
+				7B83A5501A35FF31006C8823 /* Search Button.png in Resources */,
 				7BF5C0BF1A30CF46006FD72D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +239,8 @@
 			files = (
 				7B673FE91A30D626006A0FF2 /* ShowTableViewCell.swift in Sources */,
 				7BF5C0BA1A30CF46006FD72D /* ViewController.swift in Sources */,
+				7B7C855E1A3CA1B90072D486 /* Show.swift in Sources */,
+				7B7C85601A3CA76D0072D486 /* ShowList.swift in Sources */,
 				7BF5C0B81A30CF46006FD72D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

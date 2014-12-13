@@ -16,10 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        // Sets navigation bar color to white
-        let navigationBarAppearace = UINavigationBar.appearance()
-        //navigationBarAppearace.tintColor = UIColor.whiteColor()
-        navigationBarAppearace.barTintColor = UIColor.whiteColor()
+        //set the background color to #7f8c8d
+        var titleColor = UIColor(red: 0x7f/255, green: 0x8c/255, blue: 0x8d/255, alpha: 1.0)
+
+        // Sets navigation bar color and font
+        UINavigationBar.appearance().barTintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "AvenirNext-Medium", size: 17.0)!, NSForegroundColorAttributeName: titleColor]
+        
         
         return true
     }
