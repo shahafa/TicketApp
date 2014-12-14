@@ -25,12 +25,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10;
+        return ShowList.instance.shows.count
     }
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: ShowTableViewCell = tableView.dequeueReusableCellWithIdentifier("ShowTableViewCell") as ShowTableViewCell
+        
+        cell.show = ShowList.instance.shows[indexPath.row]
         
         return cell
     }
